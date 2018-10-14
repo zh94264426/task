@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>清泽心雨招新网站</title>
+	</head>
+	<body>
+		<h1>清泽心雨招新</h1>	
+		<form>
+		姓名:<br />
+		<input  type="text"  name="myname"  />
+		<br />
+		<label>性别:</label>
+    	<br />
+    	<label>男</label>
+    	<input type="radio" value="1"  name="gender" />
+		<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;女</label>
+    	<input type="radio" value="2"  name="gender" />
+    	<br />
+		专业名称:<br />
+		<input  type="text"  name="class"  />
+		<br />
+		联系方式(手机):<br />
+		<input  type="text"  name="telephone"  />
+		<br />
+		邮箱地址:<br />
+		<input  type="text"  name="e-mail"  />
+		<br />
+		个人简介:<br />
+    	<textarea  cols="50" rows="10">在这里输入内容...</textarea>
+		<hr />
+		    <label>请选择要加入的部门:</label>
+		    <br />
+    <select>
+      <option value="请选择部门"selected="selected">请选择部门</option>
+      <option value="网络运营部">网络运营部</option>
+      <option value="公关策划部">公关策划部</option>
+      <option value="视觉设计部">视觉设计部</option>
+      <option value="技术开发部">技术开发部</option>
+      <option value="网络安全部">网络安全部</option>
+      <option value="视觉设计部">视觉设计部</option>
+      <option value="视频集团">视频集团(微影像)</option>
+      <option value="视频集团">视频集团(微效坊)</option>
+      <option value="视频集团">视频集团(清泽电视台)</option>
+      <option value="新闻集团">新闻集团(采编站)</option>
+      <option value="新闻集团">新闻集团(编审站)</option>
+      <option value="综合媒体集团">综合媒体集团(微信运营站)</option>
+      <option value="综合媒体集团">综合媒体集团(小程序站)</option>
+      <option value="综合媒体集团">综合媒体集团(清泽心雨电台站)</option>
+    </select>
+      <input type="submit" value="提交" name="submit" />
+		</form>
+		</body>
+</html>
